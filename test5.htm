@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function light(sw) 
+		{
+			var pic;
+			if (sw == 0) 
+			{
+				pic ="C:\Users\DuyNguyenNgoc\Desktop\26904229_1918476351815522_8557696851240008231_n.jpg"
+			}
+			else 
+			{
+				pic = "C:\Users\DuyNguyenNgoc\Desktop\U23.jpg"
+			}	
+			document.getElementById("MyImage").src = pic;
+		}
+	</script>
+	<!-- <img id="MyImage" src="C:\Users\DuyNguyenNgoc\Desktop\26904229_1918476351815522_8557696851240008231_n.jpg" width="auto" height="auto"> -->
+	<img id="MyImage" src="C:\Users\DuyNguyenNgoc\Desktop\u23.jpg" width="30%">
+	<p>
+		<button type="button" onclick="light (1)"> Before </button>
+		<button type="button" onclick="light (0)"> After </button>
+	</p>
+</body>
+</html>
